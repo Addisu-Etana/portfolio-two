@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio-Addisu</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!---------------header section------------------->
+    <header class="header" id="header">
+      <div class="logo">
+        <img src="./images/Addisu-logo.png" alt="" />
+      </div>
+      
+      <nav>
+      <ul class="navbar">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-open"></i>
+      <i class="fa-solid fa-xmark" id="menu-close"></i>
+    </nav>
+    </header>
+    <section>
+      <div class="second-header">
+        <div class="header-text">
+          <h1>Frontend-developer</h1>
+          <h3>
+            Hello, I'm Addisu Etana from Ethiopia
+            <span class="fi fi-et" id="flag"></span>
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            magni ab possimus vel. Non minima saepe laudantium ab sapiente, fuga
+            cum tempore tempora veritatis ipsam adipisci! Dolores obcaecati
+            itaque sunt ad deserunt, tempora autem earum at voluptate,
+            consequatur nostrum deleniti eius modi. Veritatis, repudiandae
+            quasi.
+          </p>
+        </div>
+        <div class="header-image">
+          <img src="./images/about-image.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------about section ----------------- -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/dv profile.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              veniam soluta in repellendus iusto sint laboriosam corrupti
+              blanditiis quibusdam maxime esse sed dolore quis, debitis
+              sapiente? Sequi asperiores ullam pariatur exercitationem nobis
+              aperiam dolorem voluptate eius, incidunt, impedit fugit repellat?
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab('skills',event)"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience',event)">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education',event)">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web development</span> <br />
+                  Designing web/App development
+                </li>
+                <li>
+                  <span>Transmission Planner</span> <br />
+                  Updating & developing least-cost TL masterplan
+                </li>
+                <li>
+                  <span>Power system planning Engineer</span> <br />
+                  Conducting power system feasibility study
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Junior or 0 year</span> <br />
+                  ALX-Ethiopia software Traning
+                </li>
+                <li>
+                  <span>11/02/22 - current</span> <br />
+                  Building user interfaces (UI) for web applications
+                </li>
+                <li>
+                  <span>24/06/2020 - 26/01/2022 </span> <br />
+                  Building and maintaining server-side applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023 - 2024</span> <br />
+                  <a
+                    href="https://www.alxafrica.com/tag/alx-ethiopia/"
+                    target="_blank"
+                    >ALX-Ethiopia software Traning online program</a
+                  >
+                </li>
+                <li>
+                  <span>2008 - 2013</span> <br />
+                  <a href="https://www.hu.edu.et/" target="_blank"
+                    >Hawassa university IOT campus regular program</a
+                  >
+                </li>
+                <li>
+                  <span>2008 - 2014</span> <br />
+                  <a href="https://www.hu.edu.et/" target="_blank"
+                    >Hawassa university IOT campus regular program</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------sevices section----------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+              rerum quos beatae, consectetur nulla ad nisi pariatur ipsum
+              necessitatibus aliquid! Id soluta, iste sit repellat sequi alias
+              ipsam voluptas iusto!
+            </p>
+            <a
+              href="https://www.geeksforgeeks.org/web-development/"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+              rerum quos beatae, consectetur nulla ad nisi pariatur ipsum
+              necessitatibus aliquid! Id soluta, iste sit repellat sequi alias
+              ipsam voluptas iusto!
+            </p>
+            <a
+              href="https://www.geeksforgeeks.org/techtips/principles-of-ui-ux-design/"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>React Developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+              rerum quos beatae, consectetur nulla ad nisi pariatur ipsum
+              necessitatibus aliquid! Id soluta, iste sit repellat sequi alias
+              ipsam voluptas iusto!
+            </p>
+            <a
+              href="https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-react-developer/"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------portfolio------------------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi vitae magnam dolorem rerum nam, sint ad illum eius.
+                Provident tenetur molestiae facilis debitis nemo laudantium sit
+                consequuntur aut doloremque adipisci?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi vitae magnam dolorem rerum nam, sint ad illum eius.
+                Provident tenetur molestiae facilis debitis nemo laudantium sit
+                consequuntur aut doloremque adipisci?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi vitae magnam dolorem rerum nam, sint ad illum eius.
+                Provident tenetur molestiae facilis debitis nemo laudantium sit
+                consequuntur aut doloremque adipisci?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://www.britannica.com/place/Ethiopia"
+          class="btn"
+          target="_blank"
+          >See more</a
+        >
+      </div>
+    </div>
+    <!-- -------------------------------contact section ---------------------- -->
+    <div id="contact">
+      <div class="container-contact">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>addisuelectrical@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>+251-921-56-78-40</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./images/Edited.AddisuEtana.pdf" download="" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="your name" required />
+              <input type="text" name="Email" placeholder="your email" required />
+              <textarea name="Message" cols="30" rows="10" placeholder="your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Addisu. Junior frontend developer <i class="fa-solid fa-heart"></i>. </p>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
