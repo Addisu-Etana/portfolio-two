@@ -5,7 +5,7 @@
 
   ## 🌐 Deployment
 
-- **static website**: Deployed personal website on=>[Vercel](https://portfolio-on1akzvy6-addisu-etana-s-projects.vercel.app/).
+- **static website**: Deployed personal website on=>[Vercel](https://portfolio-two-mu-three.vercel.app/).
 
 - **Addisu-Etana** (@Addisu) -
 
